@@ -1,6 +1,5 @@
-from rest_framework import serializers
-
 from note.models import Note, NoteImage
+from rest_framework import serializers
 
 
 class NoteSerializer(serializers.ModelSerializer):

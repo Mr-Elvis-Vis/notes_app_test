@@ -1,7 +1,6 @@
+from api.views import NoteImageViewSet, NoteViewSet
 from django.urls import include, path
 from rest_framework.routers import DefaultRouter
-
-from api.views import NoteImageViewSet, NoteViewSet
 
 app_name = 'api'
 
